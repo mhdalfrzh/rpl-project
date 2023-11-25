@@ -1,0 +1,439 @@
+@font-face {
+  src: url(../Fonts/product-sans/Product\ Sans\ Regular.ttf);
+  font-family: ProductSansRegular;
+}
+@font-face {
+  src: url(../Fonts/product-sans/Product\ Sans\ Bold.ttf);
+  font-family: ProductSansBold;
+}
+@font-face {
+  src: url(../Fonts/boston-angel/Boston\ Angel\ Regular.ttf);
+  font-family: BostonAngel;
+}
+
+* {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.logoIPB2 {
+  position: absolute;
+  top: 60vh;
+  left: -1.5vw;
+  height: 110vh;
+  z-index: -999;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 5vw;
+  background-color: #12465b;
+  align-items: center;
+  margin-bottom: 50px;
+  color: white;
+  text-decoration: none;
+}
+.scrapWhite {
+  margin-left: 1vw;
+  margin-top: 6px;
+  cursor: pointer;
+}
+.searchBar {
+  background-color: #12465b;
+  display: flex;
+  justify-content: space-between;
+  width: 63vw;
+  height: 50px;
+  border-radius: 5px;
+  font-family: ProductSansRegular;
+  font-size: 17px;
+  border: none;
+}
+#searchInput {
+  background-color: white;
+  width: 63vw;
+  height: 50px;
+  outline: none;
+  border: 0px;
+  border-radius: 5px 0 0 5px;
+  font-family: ProductSansRegular;
+  font-size: 18px;
+  text-indent: 10px;
+  outline: none;
+}
+.jualBtn {
+  background-color: #f7be38;
+  width: 120px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 4px #d8574a solid;
+  cursor: pointer;
+}
+
+p {
+  font-family: ProductSansRegular;
+  font-size: 15px;
+}
+.logoSearch {
+  background-color: #d8574a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3vw;
+  height: 50px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.proPic {
+  width: 58px;
+  height: 58px;
+  margin-right: 1.5vw;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.homeHeader {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5vh;
+}
+.headerBanner {
+  background-image: url("../AHN.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 86vw;
+  height: 32vh;
+  text-align: left;
+  background-color: gray;
+  border-radius: 15px;
+  margin-right: 1vw;
+}
+.bannerText {
+  padding-top: 40px;
+  margin-left: 30px;
+}
+.bannerText p {
+  font-family: BostonAngel;
+  color: #ffffff;
+  font-size: 3.6em;
+}
+.btp2 {
+  margin-top: -7px;
+}
+.headerCat {
+  background-color: white;
+  width: 86vw;
+  height: 35vh;
+  margin-right: 1vw;
+}
+.headerCat h1 {
+  margin-top: 50px;
+}
+.catTitle {
+  height: 8.5vh;
+  font-family: ProductSansRegular;
+  font-weight: 500;
+  font-size: 28px;
+  color: #12465b;
+  margin-left: 30px;
+  margin-top: 14px;
+  margin-bottom: -8px;
+}
+.catCategories {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #c4c4c4;
+  border-right: none;
+}
+.catCategory {
+  border-right: 1px solid #c4c4c4;
+  width: 10.75vw;
+  height: 25.3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.catCategory.clicked {
+  background-color: #c4c4c4;
+}
+.catCategory p {
+  margin-top: 11px;
+}
+.catPicDiv {
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+.catPic1 {
+  width: 79px;
+  height: 79px;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+.catPic2 {
+  width: 68px;
+  height: 68px;
+  margin-top: 15px;
+}
+.catPic3 {
+  width: 70px;
+  height: 70px;
+  margin-top: 12px;
+}
+.catPic4 {
+  width: 70px;
+  height: 70px;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+.catPic5 {
+  width: 68px;
+  height: 68px;
+  margin-top: 10px;
+}
+.catPic6 {
+  width: 75px;
+  height: 75px;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+.catPic7 {
+  width: 60px;
+  height: 60px;
+  margin-top: 14px;
+}
+.catPic8 {
+  width: 60px;
+  height: 60px;
+  margin-top: 18px;
+}
+.homeItems {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: auto;
+  width: 86vw;
+  height: 63vw;
+  background-color: white;
+  margin-top: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.homeItem {
+  border: 1px solid #cfcfcf;
+  width: 21.5vw;
+  height: 21vw;
+  display: flex;
+  padding-left: 2.22vw;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  cursor: pointer;
+}
+.itemPic {
+  width: 17vw;
+  height: 12.5vw;
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.itemDesc p {
+  font-family: ProductSansRegular;
+  font-size: 21px;
+  color: #12465b;
+}
+.itemDesc h1 {
+  font-size: 24px;
+}
+
+.pageNavs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.pageNums {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.pagenum {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.pagenum p {
+  font-size: 34px;
+  font-family: ProductSansBold;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+.numClicked {
+  background-color: #c4c4c4;
+}
+.nextBtn {
+  cursor: pointer;
+}
+.homeBottom {
+  width: 100vw;
+  height: 7vh;
+  z-index: -99;
+  background-color: #12465b;
+  display: block;
+}
+.buletKFooter {
+  width: 150px;
+  height: 180px;
+  margin-left: 1370px;
+  z-index: -999;
+  background: #f7be38;
+  border-radius: 150px 0 0 0px;
+  overflow: none;
+}
+.buletKHome {
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  left: 90.2vw;
+  top: 222vh;
+  z-index: -999;
+  background: #f7be38;
+  border-radius: 150px 0 0 0px;
+  overflow: none;
+}
+.logoBottom {
+  margin: 1vw;
+}
+.hiasanHome2 {
+  width: 91vw;
+  height: 10vw;
+  position: absolute;
+  top: 7vw;
+  z-index: -99;
+  display: flex;
+  margin: 0 0 0 4vw;
+  justify-content: space-between;
+}
+.hiasanLeft {
+  width: 8vw;
+  display: flex;
+}
+.hiasanRight {
+  width: 8vw;
+  display: flex;
+}
+.lingkaranBig {
+  background-color: none;
+  width: 6vw;
+  height: 6vw;
+  margin-top: 1vw;
+  border: #d8574a 9px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lingkaranSmol {
+  background-color: #f7be38;
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 50%;
+}
+.lingkaranLuar {
+  background-color: #12465b;
+  width: 2.6vw;
+  height: 2.6vw;
+  border-radius: 50%;
+}
+#loginLink {
+  color: white;
+  font-size: 24px;
+  font-family: ProductSansBold;
+  margin-right: 2vw;
+}
+
+.moreCats {
+  width: 17vw;
+  height: 48vh;
+  background-color: white;
+  position: absolute;
+  top: 83.4vh;
+  left: 75.5vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.moreCat {
+  font-family: ProductSansRegular;
+  padding-left: 10px;
+  color: #12465b;
+  cursor: pointer;
+  height: 4.7vh;
+  width: 17vw;
+  display: flex;
+  align-items: center;
+}
+.moreCat:hover {
+  background-color: #c4c4c4;
+}
+
+.dropMenu {
+  width: 120px;
+  height: 16vh;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  left: 1310px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.moreMenu {
+  font-family: ProductSansRegular;
+  padding-left: 10px;
+  color: #12465b;
+  cursor: pointer;
+  height: 4.7vh;
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.moreMenu:hover {
+  background-color: #cfcfcf;
+}
+
+.dropMenu2 {
+  width: 120px;
+  height: 16vh;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  left: 1400px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.searchTitle {
+  margin-left: 100px;
+  margin-bottom: -30px;
+}

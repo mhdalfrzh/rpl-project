@@ -1,0 +1,314 @@
+@font-face {
+  src: url(../Fonts/product-sans/Product\ Sans\ Bold.ttf);
+  font-family: ProductSansBold;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+.detailBox {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  width: 100vw;
+  height: 640px;
+}
+.detailTitle {
+  color: #12465b;
+  margin-left: 6vw;
+  font-size: 36px;
+  margin-bottom: 2vw;
+}
+.detailItem {
+  width: 88vw;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  height: 60vw;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 44.87% 55.13%;
+  grid-template-rows: 80% 20%;
+}
+
+.part {
+  border: 1px solid rgb(192, 192, 192);
+}
+.partPhoto {
+  display: flex;
+  justify-content: center;
+}
+.part1part {
+  width: 32vw;
+  height: 45vw;
+  margin-top: 4vh;
+}
+.mainPic {
+  background-color: rgb(43, 46, 43);
+  height: 94%;
+  width: 100%;
+}
+.sidePics {
+  height: 25%;
+  margin-top: 4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidePic img {
+  width: 7vw;
+}
+.partDesc {
+  display: grid;
+  grid-template-rows: 13.84% 86.16%;
+  border-left: none;
+  border-bottom: none;
+}
+.itemName {
+  border-bottom: 1px solid rgb(192, 192, 192);
+  display: flex;
+  align-items: center;
+}
+.itemName h1 {
+  margin-left: 2vw;
+  font-size: 38px;
+}
+.deskripsiDiv {
+  background-color: #12465b;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.deskripsiDiv2 {
+  background-color: #12465b;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.deskripsiDiv h4 {
+  color: white;
+  margin-left: 2vw;
+  font-size: 36px;
+}
+.deskripsiDiv2 h4 {
+  color: white;
+  margin-left: 2vw;
+  font-size: 36px;
+}
+.itemDescr h4 {
+  font-size: 28px;
+  margin-left: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 20px;
+}
+.itemDescr p {
+  margin-left: 2vw;
+  font-size: 21px;
+}
+.partSeller {
+  border-top: none;
+  border-right: none;
+}
+.partSeller h4 {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 28px;
+}
+.profil {
+  display: flex;
+  margin-left: 37px;
+  margin-top: 20px;
+}
+.pp img {
+  border-radius: 50%;
+  width: 6vw;
+  height: 6vw;
+}
+.div {
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+.div p {
+  margin: 0;
+  font-size: 20px;
+}
+.iconWA {
+  background-color: #41c452;
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.iconWA p {
+  display: inline;
+  color: white;
+  font-size: 20px;
+}
+.partPrice h4 {
+  margin-left: 20px;
+  font-size: 28px;
+}
+.partPrice p {
+  font-size: 36px;
+  color: #12465b;
+  margin: 18px 0 0 20px;
+}
+
+.itemComment {
+  margin-top: 55vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 88vw;
+}
+.itemTitle {
+  font-size: 36px;
+  margin-bottom: 2vw;
+  color: #12465b;
+}
+.comments {
+  width: 88vw;
+  height: 28vw;
+  margin-left: 0.5vw;
+}
+.addComment {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  border-bottom: 1px solid #cfcfcf;
+  background-color: white;
+}
+.addComment input {
+  height: 40px;
+  width: 80vw;
+  outline: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding-left: 10px;
+  font-family: ProductSansRegular;
+  font-size: 18px;
+  background-color: #eeeeee;
+  border: white;
+}
+.addCmtImg {
+  background-color: rgb(0, 128, 0);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.comment {
+  display: flex;
+  border-bottom: #cfcfcf 1px solid;
+  height: 80px;
+  align-items: center;
+  justify-content: left;
+  background-color: white;
+}
+.cmtImg {
+  background-color: rgb(0, 128, 0);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.cmtDesc {
+  margin-left: 20px;
+  height: 65px;
+}
+.cmtDesc h4 {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+.cmtDesc p {
+  font-size: 18px;
+}
+.cmtBottom {
+  margin-top: 1000px;
+}
+.itemBottom {
+  width: 100vw;
+  height: 7vh;
+  z-index: -99;
+  background-color: #12465b;
+  display: block;
+  margin-top: 50px;
+}
+.buletKItem {
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  left: 90.2vw;
+  top: 210vh;
+  z-index: -999;
+  background: #f7be38;
+  border-radius: 150px 0 0 0px;
+  overflow: none;
+}
+
+.itemHargaBtn {
+  display: flex;
+}
+.itemBtns {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20px;
+}
+.itemBtns button {
+  width: 50px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}
+.itemBtnEdit {
+  background-color: #41c452;
+}
+.itemBtnHapus {
+  background-color: #d8574a;
+}
+.itemDesc h1 {
+  font-size: 24px;
+}
+.itemDesc p {
+  margin-top: 18px;
+  font-size: 20px;
+}
+.addToCart {
+  display: flex;
+  background-color: #d8574a;
+  width: 80%;
+  margin: auto;
+  height: 50px;
+  border-radius: 12px;
+  justify-content: left;
+  align-items: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.addToCart h4 {
+  font-size: 22px;
+  color: white;
+  margin-left: 100px;
+}
+.addToCart svg {
+  margin-left: 30px;
+}

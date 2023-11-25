@@ -1,0 +1,54 @@
+@font-face {
+  src: url(../Fonts/product-sans/Product\ Sans\ Bold.ttf);
+  font-family: ProductSansBold;
+}
+@font-face {
+  src: url(../Fonts/Montserrat-Bold.ttf);
+  font-family: MontserratBold;
+}
+@font-face {
+  src: url(../Fonts/product-sans/Product\ Sans\ Regular.ttf);
+  font-family: ProductSansRegular;
+}
+.listPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.listTitle {
+  margin-right: 890px;
+  margin-bottom: 20px;
+}
+table {
+  background-color: white;
+  width: 1000px;
+  text-align: center;
+  border-collapse: collapse;
+}
+thead {
+  font-size: 18px;
+  font-family: ProductSansBold;
+  color: #12465b;
+}
+td {
+  font-size: 16px;
+  font-family: ProductSansRegular;
+  color: #12465b;
+}
+th,
+td {
+  border: 1px solid black;
+  height: 35px;
+}
+
+td button {
+  background-color: #d8574a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 8px;
+}

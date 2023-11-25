@@ -1,0 +1,151 @@
+@font-face {
+  src: url(../Fonts/product-sans/Product\ Sans\ Bold.ttf);
+  font-family: ProductSansBold;
+}
+@font-face {
+  src: url(../Fonts/product-sans/Product\ Sans\ Regular.ttf);
+  font-family: ProductSansRegular;
+}
+
+.profilTitle {
+  color: #12465b;
+  margin-left: 6vw;
+  font-size: 36px;
+}
+
+.accBox {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 86vw;
+  height: 46vw;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 15vh;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.accleft {
+  width: 34vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.accleft img {
+  width: 24vw;
+  height: 24vw;
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-top: 8vh;
+}
+
+.accleft button {
+  margin-top: 6vh;
+  border-radius: 10px;
+  width: 11vw;
+  height: 3vw;
+  color: white;
+  cursor: pointer;
+  font-family: ProductSansBold;
+  font-size: 24px;
+  border: none;
+  outline: none;
+}
+.gantiProfil {
+  background-color: #12465b;
+}
+.logOut {
+  background-color: #d8574a;
+}
+
+.accright {
+  width: 44vw;
+  height: 44vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.accright h1 {
+  font-size: 24px;
+}
+.profNama {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profIn input {
+  width: 40vw;
+  height: 45px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.25);
+  outline: none;
+  border: none;
+  font-family: ProductSansRegular;
+  color: #12465b85;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.profNama input {
+  width: 18vw;
+}
+.nomorHP {
+  width: 17vw;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #41c452;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ProductSansRegular;
+}
+.nomorHP p {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.profileItems {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: auto;
+  width: 86vw;
+  height: 42.66vw;
+  background-color: white;
+  margin-top: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profBtnSave {
+  position: absolute;
+  background-color: #d8574a;
+  margin-left: 540px;
+  margin-top: 820px;
+  width: 260px;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.profBtnSave h1 {
+  color: white;
+  font-size: 18px;
+}
+.profBtnUpload {
+  background-color: #12465b;
+  margin-top: 30px;
+  width: 180px;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profBtnUpload h1 {
+  font-size: 20px;
+  color: white;
+}

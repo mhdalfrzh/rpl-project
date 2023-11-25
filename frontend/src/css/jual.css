@@ -1,0 +1,108 @@
+@font-face {
+  src: url(../Fonts/product-sans/Product\ Sans\ Regular.ttf);
+  font-family: ProductSansRegular;
+}
+
+#jualMenuTitle {
+  margin-left: 5vw;
+  margin-bottom: 4vh;
+}
+.jualBox {
+  background-color: white;
+  width: 89vw;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.jualBoxLeft {
+  width: 29vw;
+  margin-top: 6vh;
+}
+.jualBoxRight {
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.jualBoxRight div {
+  margin-left: 5vw;
+}
+.jualBoxRight input {
+  background: rgba(196, 196, 196, 0.25);
+  outline: none;
+  border: none;
+  width: 42vw;
+  height: 6vh;
+  border-radius: 15px;
+  font-family: ProductSansRegular;
+  font-size: 18px;
+  padding-left: 18px;
+}
+.jualBoxRight select {
+  background: rgba(196, 196, 196, 0.25);
+  outline: none;
+  border: none;
+  width: 42vw;
+  height: 6vh;
+  border-radius: 15px;
+  font-family: ProductSansRegular;
+  font-size: 18px;
+  padding-left: 18px;
+}
+.jualBoxRight textarea {
+  background: rgba(196, 196, 196, 0.25);
+  outline: none;
+  border: none;
+  width: 42vw;
+  height: 24vh;
+  border-radius: 15px;
+  resize: none;
+  font-family: ProductSansRegular;
+  font-size: 18px;
+  padding-left: 18px;
+}
+
+.inputImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  width: 29vw;
+  background-color: #c4c4c4;
+  border-radius: 30px;
+  height: 48vh;
+}
+.inputImg p {
+  margin-top: 10vh;
+  margin-bottom: 7vh;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+}
+.jualBottom {
+  width: 100vw;
+  height: 7vh;
+  z-index: -99;
+  background-color: #12465b;
+  display: block;
+  margin-top: 100vh;
+}
+
+.posting {
+  position: absolute;
+  left: 85vw;
+  margin-top: 670px;
+  width: 140px;
+  height: 45px;
+  background-color: #41c452;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: ProductSansRegular;
+}
